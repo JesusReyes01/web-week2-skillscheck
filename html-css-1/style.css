@@ -1,0 +1,144 @@
+body{
+    text-align: center;
+    margin: 0;
+    width: 100vw;
+
+}
+.header-flex{
+    height:50px;
+    width: 100vw;
+    background: gray;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+.header-flex h2{
+    color:white;
+}
+.nav-flex{
+    color: white;
+    width: 200px;
+    display:flex;
+    justify-content: space-between;
+}
+.first-section{
+    height: 250px;
+    width: 100vw;
+    background:black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-section h1{
+    color: yellow;
+    height:100px;
+    width:700px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.content-section{
+    height: 540px;
+    width: 100vw;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-direction: column;
+    padding:10px 10px 10px 10px;
+
+}
+.green-flex{
+    height: 160px;
+    width:90vw;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+.square-1{
+    height:120px;
+    width: 120px;
+    background:lightgreen;
+    border-radius: 5%;
+}
+.square-2{
+    height:120px;
+    width: 120px;
+    background:lightgreen;
+    border-radius: 5%;
+}
+.square-3{
+    height:120px;
+    width: 120px;
+    background:lightgreen;
+    border-radius: 5%;
+}
+.yellow-flex{
+    height: 160px;
+    width:90vw;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+
+}
+.rectangle-1{
+    height: 150px;
+    width: 275px;
+    background: rgb(235, 192, 101);
+   
+}
+.rectangle-2{
+    height: 150px;
+    width: 275px;
+    background: rgb(235, 192, 101); 
+}
+.content-flex{
+    height: 160px;
+    width:90vw;
+
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.words-box{
+    height: 150px;
+    width: 275px;
+    font-size: 8px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+
+}
+.words{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    height:100px;
+    width:225px;
+    text-align:left;
+}
+
+.image-box{
+    height: 150px;
+    width: 275px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+ 
+}
+.image-box img{
+    height:120px;
+    width 300px;
+}
+
+
+
+
+footer{
+    height: 100px;
+    width: 100vw;
+    background: purple;
+}
